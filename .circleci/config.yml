@@ -10,7 +10,7 @@ jobs:
         working_directory: ~/circleci-starter
         docker:
             - image: cimg/node:14.15.0 # Primary execution image
-            - image: docker:17.05.0-ce-git
+            - image: cimg/docker:17.05.0-ce-git
         steps:
             - checkout
             - run:
